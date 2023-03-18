@@ -6,7 +6,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-
 /*
 ByteArrayOutputStream and ByteArrayInputStream demo code
 text is taken input from a JoptionPane dialog
