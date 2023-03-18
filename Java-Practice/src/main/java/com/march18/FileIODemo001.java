@@ -10,7 +10,7 @@ public class FileIODemo001 {
             FileOutputStream flieout = new FileOutputStream("abc.txt");
 //            String string = "Hello world!! How are you ?";
 
-            String string = JOpti   onPane.showInputDialog(null,
+            String string = JOptionPane.showInputDialog(null,
                     "Enter message here ");
 
             byte[] bytes = string.getBytes();
