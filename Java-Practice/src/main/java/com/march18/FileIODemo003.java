@@ -11,7 +11,7 @@ import java.io.BufferedOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-public class FileIODemo3 {
+public class FileIODemo003 {
     public static void main(String[] args) {
         try {
 
