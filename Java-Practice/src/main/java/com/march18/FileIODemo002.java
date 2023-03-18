@@ -6,6 +6,16 @@ import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+
+/*
+ByteArrayOutputStream and ByteArrayInputStream demo code
+text is taken input from a JoptionPane dialog
+box and then put it in a file with ByteArrayInputStream
+and then read it with FileInputStream and print it
+on console
+*/
+
+
 public class FileIODemo002 {
     public static void main(String[] args) {
         try {
