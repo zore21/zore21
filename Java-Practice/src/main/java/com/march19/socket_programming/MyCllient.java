@@ -1,7 +1,9 @@
 package com.march19.socket_programming;
 
 import javax.swing.*;
+import java.io.DataInputStream;
 import java.io.DataOutputStream;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
@@ -22,6 +24,15 @@ public class MyCllient {
             dataOutputStream.writeUTF(message);
             dataOutputStream.flush();
             dataOutputStream.close();
+
+            InputStream inputStream =
+                    socket.getInputStream();
+            DataInputStream dataInputStream =
+                    new DataInputStream(inputStream);
+            String messageBack = (String) dataInputStream.readUTF();
+            System.out.println(messageBack);
+
+
         }catch (Exception e){
             e.printStackTrace();
         }
